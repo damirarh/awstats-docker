@@ -106,8 +106,8 @@ else {
         }
     }
 
-    print $OUT "LoadPlugin=\"geoip GEOIP_STANDARD /opt/GeoIP/GeoIP.dat\"\n";
-    print $OUT "LoadPlugin=\"geoip_city_maxmind GEOIP_STANDARD /opt/GeoIP/GeoLiteCity.dat\"\n";
+    # print $OUT "LoadPlugin=\"geoip GEOIP_STANDARD /opt/GeoIP/GeoIP.dat\"\n";
+    # print $OUT "LoadPlugin=\"geoip_city_maxmind GEOIP_STANDARD /opt/GeoIP/GeoLiteCity.dat\"\n";
 }
 
 
